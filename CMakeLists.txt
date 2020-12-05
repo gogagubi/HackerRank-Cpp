@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.14)
+project(HackerRank)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#Interview Preparation Kit/06 Greedy Algorithms
+add_executable(interviewpreparation_06_greedy_algorithms_ReverseShuffleMerge.cpp interviewpreparation_06_greedy_algorithms/ReverseShuffleMerge.cpp model_linkedList/ListNode.cpp)
+
+#Interview Preparation Kit/07 LinkedList
+add_executable(interviewpreparation_07_linkedlist_LinkedListsDetectCycle.cpp interviewpreparation_07_linkedlist/LinkedListsDetectCycle.cpp)
+
+
+#Problem Solving/03 Trees
+add_executable(problem_solving_03_trees_TreePreorderTraversal.cpp problem_solving_03_trees/TreePreorderTraversal.cpp)
+add_executable(problem_solving_03_trees_TreePostorderTraversal.cpp problem_solving_03_trees/TreePostorderTraversal.cpp)
+add_executable(problem_solving_03_trees_TreeInorderTraversal.cpp problem_solving_03_trees/TreeInorderTraversal.cpp)
